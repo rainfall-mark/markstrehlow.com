@@ -209,6 +209,31 @@
                 </p>
 </div>
 </section>
+<!-- SELECTED WORK Section -->
+<section class="w-full mb-24" id="work">
+<div class="max-w-5xl mx-auto px-8 mb-10">
+<h2 class="font-label text-xs tracking-widest uppercase text-secondary">Selected Work</h2>
+</div>
+<!--
+    Full-bleed, seamlessly stacked. Image 01 loads eagerly + high priority;
+    02–06 load lazily as the user scrolls (browser cascades them naturally).
+    To finalize, drop your exported files in ./images/ named:
+      work-01.webp, work-02.webp, ..., work-06.webp
+    Then update each aspect-ratio below to match the file's true dimensions.
+    Export tips for fast load on hi-res:
+      - WebP or AVIF, quality 78–82
+      - Width 1600px is plenty (full-bleed on desktop ≈ 1440 CSS px)
+      - Aim for <1.5MB per file; ideally <800KB
+-->
+<div class="w-full flex flex-col">
+<img alt="Rainfall — AI Coherence for the Agentic Era" class="w-full h-auto block bg-surface-container" decoding="async" fetchpriority="high" height="4084" loading="eager" src="./images/01.webp" style="aspect-ratio: 1600/4084;" width="1600"/>
+<img alt="Rainfall — Beta App site" class="w-full h-auto block bg-surface-container" decoding="async" fetchpriority="low" height="5008" loading="lazy" src="./images/02.webp" style="aspect-ratio: 1600/5008;" width="1600"/>
+<img alt="Rainfall — Beta App screens" class="w-full h-auto block bg-surface-container" decoding="async" fetchpriority="low" height="5353" loading="lazy" src="./images/03.webp" style="aspect-ratio: 1600/5353;" width="1600"/>
+<img alt="Truvalue Labs — Amplified Investment Intelligence" class="w-full h-auto block bg-surface-container" decoding="async" fetchpriority="low" height="4337" loading="lazy" src="./images/04.webp" style="aspect-ratio: 1600/4337;" width="1600"/>
+<img alt="Truvalue Platform — ESG analytics" class="w-full h-auto block bg-surface-container" decoding="async" fetchpriority="low" height="5113" loading="lazy" src="./images/05.webp" style="aspect-ratio: 1600/5113;" width="1600"/>
+<img alt="Truvalue Labs — Reports, resource library, concept prototypes" class="w-full h-auto block bg-surface-container" decoding="async" fetchpriority="low" height="4881" loading="lazy" src="./images/06.webp" style="aspect-ratio: 1600/4881;" width="1600"/>
+</div>
+</section>
 <!-- CONNECT Section -->
 <section class="w-full" id="connect">
 <div class="bg-surface-container py-20 px-8 flex flex-col items-center text-center">
